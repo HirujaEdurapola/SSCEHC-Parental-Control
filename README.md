@@ -119,10 +119,11 @@ If you have successfully downloaded and installed python and pip, go back to the
 
 | Version | Windows | MacOS |
 | ---------- | ---------- | --------- |
+| 4.0 | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/4.0.zip) <br> ```curl -LJOhttps://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/4.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/4.0.zip) |
 | 3.1.0 | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.1.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.1.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.1.0.zip) |
 | 3.0 Stable Release | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.0.zip) |
 | 2.0 | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/2.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/2.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/2.0.zip) |
-| 1.0 | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip) |
+| 1.0 Initial Release | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip) |
 
 
 ## Notes
