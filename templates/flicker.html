@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parental Control</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Nunito";
+}
+:root {
+  --var-color: rgb(0, 238, 255);
+  --var-color: rgb(255, 0, 0);
+}
+section {
+  height: 100vh;
+  width: 100%;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #09111b;
+  height: 100vh;
+  
+  
+}
+
+.container h1 {
+  font-size: 7vw;
+  color: var(--var-color);
+  position: relative;
+  /* text-align: center; */
+  
+}
+
+.container{
+    margin-left: 12vh;
+}
+
+
+
+.container h1::before {
+  position: absolute;
+  /* text-align: center; */
+  content: attr(data-text);
+  text-shadow: 0px 0px 20px var(--var-color);
+  filter: blur(10px) brightness(0);
+  animation: flicker 2s linear forwards;
+  animation-delay: 2s;
+}
+@keyframes flicker {
+  0% {
+    filter: blur(5px) brightness(1);
+  }
+  3% {
+    filter: blur(5px) brightness(0);
+  }
+  6% {
+    filter: blur(5px) brightness(0);
+  }
+  7% {
+    filter: blur(5px) brightness(1);
+  }
+  8% {
+    filter: blur(5px) brightness(0);
+  }
+  9% {
+    filter: blur(5px) brightness(1);
+  }
+  10% {
+    filter: blur(5px) brightness(0);
+  }
+  20% {
+    filter: blur(5px) brightness(1);
+  }
+  50% {
+    filter: blur(5px) brightness(1);
+  }
+  99% {
+    filter: blur(5px) brightness(0);
+  }
+  100% {
+    filter: blur(5px) brightness(1);
+  }
+}
+
+span{
+    margin-left: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <section>
+        <div class="container">
+          <h1 data-text="Ethical HackingCommunity">Ethical Hacking<span>Community</span></h1>
+        </div>
+      </section>
+<meta http-equiv="refresh" content="3.7; url=http://localhost:5000/">
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parental Control</title>
+    <style>
+        body{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#000;
+  height:100vh;
+}
+.tubelight span{
+  color:#fff;
+  /* color:black; */
+  text-transform:uppercase;
+/*   font-family: 'Pacifico', cursive; */
+  font-family: 'Monda', sans-serif;
+  font-size:5em;
+  animation:animate 2s linear;
+  animation-iteration-count:2;
+/*   display:table-cell; */
+  padding:0px  4px;
+  text-shadow:0px 0px 20px  #fff,
+      0px 0px 30px  #fff,
+      0px 0px 10px  #fff,
+      0px 0px 1px  #fff
+      ;
+      /* text-shadow: none; */
+}
+.tubelight span:nth-child(1){
+  animation-delay:0s;
+}
+.tubelight span:nth-child(2){
+  animation-delay:0.25s;
+}
+.tubelight span:nth-child(3){
+  animation-delay:0.5s;
+}
+.tubelight span:nth-child(4){
+  animation-delay:0.75s;
+}
+.tubelight span:nth-child(5){
+  animation-delay:0.3s;
+}
+.tubelight span:nth-child(6){
+  animation-delay:0.5s;
+}
+.tubelight span:nth-child(7){
+  animation-delay:0.6s;
+}
+.tubelight span:nth-child(8){
+  animation-delay:0.8s;
+}
+.tubelight span:nth-child(9){
+  animation-delay:1s;
+}
+/*  */
+.tubelight span:nth-child(10){
+  animation-delay:1.2s;
+}
+.tubelight span:nth-child(11){
+  animation-delay:1.4s;
+}
+.tubelight span:nth-child(12){
+  animation-delay:1.6s;
+}
+.tubelight span:nth-child(13){
+  animation-delay:1.8s;
+}
+.tubelight span:nth-child(14){
+    animation-delay:2s;
+}
+.tubelight span:nth-child(15){
+  animation-delay:2.2s;
+}
+.tubelight span:nth-child(16){
+  animation-delay:2.4s;
+}
+.tubelight span:nth-child(17){
+  animation-delay:2.6s;
+}
+.tubelight span:nth-child(18){
+    animation-delay:2.8s;
+}
+/*  */
+.tubelight span:nth-child(19){
+  animation-delay:3s;
+}
+.tubelight span:nth-child(20){
+  animation-delay:3.2s;
+}
+.tubelight span:nth-child(21){
+  animation-delay:3.4s;
+}
+.tubelight span:nth-child(22){
+  animation-delay:3.6s;
+}
+.tubelight span:nth-child(23){
+    animation-delay:3.8s;
+}
+.tubelight span:nth-child(24){
+  animation-delay:4s;
+}
+.tubelight span:nth-child(25){
+  animation-delay:4.2s;
+}
+.tubelight span:nth-child(26){
+  animation-delay:4.4s;
+}
+.tubelight span:nth-child(27){
+    animation-delay:4.6s;
+}
+
+
+
+@keyframes animate{
+  0%,15%,25%,30%,65%,95%{
+    color:#111;
+    text-shadow:none;
+  }
+  10%,20%,31%,60%,100%{
+    color:#fff;
+    text-shadow:0px 0px 20px  #fff,
+      0px 0px 30px  #fff,
+      0px 0px 10px  #fff,
+      0px 0px 1px  #fff
+      ;
+  }
+}
+    </style>
+</head>
+<body>
+    <div class="tubelight">
+        <span>E</span>
+        <span>t</span>
+        <span>h</span>
+        <span>i</span>
+        <span>c</span>
+        <span>a</span>
+        <span>l</span>
+        <span>&ThickSpace;</span>
+        <span>H</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>i</span>
+        <span>n</span>
+        <span>g</span>
+        <span>&ThickSpace;</span>
+        <span>C</span>
+        <span>o</span>
+        <span>m</span>
+        <span>m</span>
+        <span>u</span>
+        <span>n</span>
+        <span>i</span>
+        <span>t</span>
+        <span>y</span>
+      </div>
+</body>
+</html> -->
