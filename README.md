@@ -130,6 +130,7 @@ If you have successfully downloaded and installed python and pip, go back to the
 1. `app.py` is the main python file.
 2. `templates/index.html` file is the landing page of the application.
 3. Screenshots are stored in the `screenshots\` folder.
-> ⚠️ **Warning:** Changes to the file structure can result in errors in the code.
+> [!CAUTION]
+> Changes to the file structure can result in errors in the code.
 
 
