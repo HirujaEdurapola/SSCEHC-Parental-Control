@@ -1,0 +1,36 @@
+Create a proffesonal software license including the following (add more details and clarify each section) (also add more definitions as needed):
+
+                            SJ Project License
+                          Version 1.0, July 2024
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1.Definitions.
+
+"You (or Your)"
+"Code": Source Code, includes all the scripts including text files, images and compiled files.
+"We/Us" Author(s) of the "CODE" including licenor
+"License": This whole document including the definitions section, title and copyright holders
+"Product": All the files in this directory and sub directory(s) including but not limited to "Code"
+
+2. Grant of Copyright License. We herby grant you the right to view/run the "Code" This product was not sold nor licensed to you. This was published/given to you as a Test Project for You to REVIEW, mainly to run a specific file than to check or/and view the "Code". You are NOT allowed to EDIT/SELL/REDISTRIBUTE/COPY(Full or Partial) this "Code" and/or the license.
+
+3.Redistribution. You may not reproduce and distribute copies of the Work or Derivative Works thereof in any medium, with or without modifications, and in Source or Object form
+
+4.Contributions. Unless You explicitly state otherwise, any Contribution intentionally submitted to this "Code" and/or Project iis now a property of the Copyrightholder and/or licenor. Also notice that EVEN IF any contribution has been done explicitly stating the copyright owenership, it still becomes the property of the Copyrightholder and/or licenor, but you are able to COPY/PUBLISH that part of your contributions as your own work unless it is not mentioned in the Project's/Copyrightholder's/Licenors's contribution terms and conditions.
+
+5.Trademarks. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, unless you have their WRITTEN approval to do so.
+
+6.Disclaimer of Warranty. Unless required by applicable law or agreed to in writing, Licensor provides the Work (and each Contributor provides its Contributions) on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied, including, without limitation, any warranties or conditions of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A PARTICULAR PURPOSE. You are solely responsible for determining the appropriateness of using or redistributing the Work and assume any risks associated with Your exercise of permissions under this License.
+
+7.Legal. By using something licensed under this you acknowladge that you are restricted from taking any legal action under any jurdiction worldwide against Us/Licenor/CopyrightHolder/Service Provider
+
+END OF TERMS AND CONDITIONS
+
+Appendix:
+
+        You or/and no one expect the licenor/copyright holder has the right to delete/edit/remove this license file. Doing that will result violating license policy and taking of serious legal action against You. This rule is not valid if you have the WRITTEN permission from the copyright holder/licenor to do so.
+
+Copyright [2024] [Hiruja Edurapola]
+
+Neither Copyright Holder nor The Licenor is Responsible of damage of any kind including but not limited to computer malfunction/malware/damage/failures that can be caused. Use wth caution.

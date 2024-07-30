@@ -134,7 +134,7 @@ body {
     </style>
 </head>
 <body>
-    <h1>Parental Control App</h1>
+    <h1>Parental Control App <br>by Cyber4Child</h1>
     {% if is_running %}
     <form action="{{ url_for('stop') }}" method="post">
         <button type="submit">Stop</button>
@@ -147,5 +147,7 @@ body {
     <form action="{{ url_for('activity') }}" method="get">
         <button type="submit">View Activity</button>
     </form>
+
+    <!-- http://192.168.1.19:5500/ -->
 </body>
 </html>

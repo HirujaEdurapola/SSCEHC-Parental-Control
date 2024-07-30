@@ -81,10 +81,85 @@
     animation: wave 20s -1s reverse infinite;
     opacity: 0.9;
 }
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+a{
+    text-decoration: none;
+    background-color: white;
+    padding: 1px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span-hiruja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* h1{
+    margin-left: 70vh;
+}
+
+h3{
+    margin-left: 70vh;
+} */
+
+/* .hiruja-margin{
+    width: 50vw;
+} */
+
+svg{
+    height: 5vh;
+    margin-right: auto;
+    margin-right: 90vw;
+    cursor: pointer;
+    animation: hiruja 1s ease-out;
+    animation-iteration-count: 1;
+    /* animation-delay: 300ms; */
+}
+
+@keyframes hiruja {
+    0%,30%{
+        margin-right: 1vw;
+    }
+    100%{
+        margin-right: 90vw;
+    }
+}
+
     </style>
 </head>
 <body>
-    <h1>Activity Log</h1>
+    <div class="span-hiruja">
+    <!-- <i class="arrow left"></i> -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="100px" onclick="openWindow()">
+        <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path fill="#ffffff" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
+   <!-- <span class="hiruja-margin"></span>  --><br>
+   <!-- <h1>Activity Log</h1> -->
+    <h3 id="hiruja"></h3>
+</div>
     <div id="activityLog">
         {% for screenshot in screenshots %}
         <img src="{{ url_for('get_screenshot', filename=screenshot) }}" alt="Screenshot">
@@ -108,8 +183,25 @@
                 .catch(error => console.error(error));
         }
 
-        // Call updateActivityLog every 5 seconds
-        setInterval(updateActivityLog, 5000);
+        // Call updateActivityLog every 5 seconds PS. Chnaged for 3 Seconds
+        setInterval(updateActivityLog, 3000);
+    </script>
+    <script>
+        let timeRemain = 4;
+
+        setInterval(displayTime, 1000);
+
+        function displayTime(){
+            if (timeRemain != 0){
+                timeRemain = timeRemain - 1;
+                document.getElementById('hiruja').innerText = timeRemain;
+            }
+            // else{}
+        }
+
+        function openWindow(){
+            window.open("http://127.0.0.1:5000/", "_self")
+        }
     </script>
 </body>
 </html>

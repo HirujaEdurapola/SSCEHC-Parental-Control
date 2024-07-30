@@ -3,9 +3,14 @@ from PIL import ImageGrab
 import time
 import threading
 import os
+import webview
+import multiprocessing
+import webbrowser
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='templates')
 app.config['UPLOAD_FOLDER'] = 'screenshots'
+
+
 
 class ParentalControlApp:
     def __init__(self):
@@ -23,7 +28,7 @@ class ParentalControlApp:
     def take_screenshots(self):
         while self.is_running:
             self.take_screenshot()
-            time.sleep(5)
+            time.sleep(3)
 
     def start_screenshots(self):
         if not self.is_running:
@@ -67,5 +72,30 @@ def activity():
 def get_screenshot(filename):
     return send_from_directory(app.config['UPLOAD_FOLDER'], filename)
 
+
+def startserver():
+    app.run(debug=False, port=5000, use_reloader="False")
+
+
 if __name__ == '__main__':
+    # app.run(debug=True)
+    # threading.Thread(target=startserver).start()
+    # webview.create_window("Parental Control Software", "http://127.0.0.1:5000")
+    # webview.start()
+    # startserver()
+
+    # server_process = multiprocessing.Process(target=startserver)
+    # server_process.start()
+
+    # webview.create_window("Parental Control Software", "http://127.0.0.1:5000")
+    # webview.start()
+
+    # server_process.terminate()
+
+    
+    webbrowser.open("http://127.0.0.1:5000")
+    # print("Loading...")
+    # print("Hiruja is the G.O.A.T.")
     app.run(debug=True)
+
+

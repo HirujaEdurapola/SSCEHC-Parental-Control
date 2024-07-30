@@ -1,2 +1,4 @@
 flask
 Pillow
+cx_Freeze
+webview

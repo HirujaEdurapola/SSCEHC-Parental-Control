@@ -119,18 +119,16 @@ If you have successfully downloaded and installed python and pip, go back to the
 
 | Version | Windows | MacOS |
 | ---------- | ---------- | --------- |
-| 4.0 | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/4.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/4.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/4.0.zip) |
 | 3.1.0 | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.1.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.1.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.1.0.zip) |
 | 3.0 Stable Release | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/3.0.zip) |
 | 2.0 | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/2.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/2.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/2.0.zip) |
-| 1.0 Initial Release | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip) |
+| 1.0 | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip) <br> ```curl -LJO https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip``` | [Download](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/archive/refs/tags/1.0.zip) |
 
 
 ## Notes
 1. `app.py` is the main python file.
 2. `templates/index.html` file is the landing page of the application.
 3. Screenshots are stored in the `screenshots\` folder.
-> [!CAUTION]
-> Changes to the file structure can result in errors in the code.
+> ⚠️ **Warning:** Changes to the file structure can result in errors in the code.
 
 
