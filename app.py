@@ -1,3 +1,7 @@
+"""
+Good Luck Trying To Read This Code ;)
+"""
+
 from flask import Flask, render_template, send_from_directory, redirect, url_for
 from PIL import ImageGrab
 import time
@@ -6,11 +10,13 @@ import os
 import webview
 import multiprocessing
 import webbrowser
+import colorama
+
 
 app = Flask(__name__, template_folder='templates')
 app.config['UPLOAD_FOLDER'] = 'screenshots'
 
-
+print(colorama.Fore.RESET)
 
 class ParentalControlApp:
     def __init__(self):
@@ -74,18 +80,35 @@ def get_screenshot(filename):
 
 
 def startserver():
-    app.run(debug=False, port=5000, use_reloader="False")
+    # app.run(debug=False, port=5000, use_reloader="False")
+    webview.create_window("Parental Control Software", "http://127.0.0.1:5000")
+    webview.start()
+    print()
+    print(colorama.Fore.GREEN, "Copyright 2024. Hiruja Edurapola.")
+    # print("Main Window Closed")
+    print()
+    print(colorama.Fore.LIGHTYELLOW_EX,"App Window Closed By The User")
+    print(colorama.Fore.LIGHTRED_EX, "App will still run in the background until this window is closed.")
+    print()
+    print()
+    print(colorama.Fore.LIGHTMAGENTA_EX, "Press Ctrl + C to terminate without relaunching")
+    print(colorama.Fore.RESET)
+    
+    
 
 
 if __name__ == '__main__':
-    # app.run(debug=True)
     # threading.Thread(target=startserver).start()
+    server_process = multiprocessing.Process(target=startserver)
+    server_process.start()
+    app.run(debug=True)
+    
     # webview.create_window("Parental Control Software", "http://127.0.0.1:5000")
     # webview.start()
     # startserver()
 
-    # server_process = multiprocessing.Process(target=startserver)
-    # server_process.start()
+    
+    
 
     # webview.create_window("Parental Control Software", "http://127.0.0.1:5000")
     # webview.start()
@@ -93,9 +116,9 @@ if __name__ == '__main__':
     # server_process.terminate()
 
     
-    webbrowser.open("http://127.0.0.1:5000")
+    # webbrowser.open("http://127.0.0.1:5000")
     # print("Loading...")
     # print("Hiruja is the G.O.A.T.")
-    app.run(debug=True)
+    # app.run(debug=True)
 
 
