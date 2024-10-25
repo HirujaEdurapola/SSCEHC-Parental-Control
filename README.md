@@ -1,5 +1,8 @@
+> [!CAUTION]
+> Neither the use of the source code/executable nor the idea/concept of this app without strict written permission is authorized. Current and all previous copies, among others, are also non-verbally subjected to this. Engaging in such actions or violating the project's license will result in serious legal consequences. <br><br> &COPY; 2024 Hiruja Edurapola. All rights reserved.
+
 # SSCEHC-Parental Control Application
-This is a simple parental control application that can be used to monitor the activities of children using the computer.
+This is a simple parental control application for monitoring children's computer activities. Created by [Hiruja Edurapola](https://hirujaedurapola.com).
 
 ## Table of contents
 1. [System Requirements](#system-requirements)
@@ -51,8 +54,8 @@ http://localhost:5000/
 pip install -r requirements.txt
 ```
 
-
->💡 You might want to enter the file path
+> [!TIP]
+> You might want to enter the file path
 
 ```bash
 pip install -r /Users/USERNAME/FILEPATH/requirements.txt
@@ -100,7 +103,8 @@ If you encounter any errors please search the web and find answers. Also make su
 
 <br>
 
-> ###  💡 **Tip**: Refer [this](https://stackoverflow.com/questions/17953124/python-is-not-recognized-as-an-internal-or-external-command) stackoverflow thread.
+> [!TIP]
+> Refer [this](https://stackoverflow.com/questions/17953124/python-is-not-recognized-as-an-internal-or-external-command) stackoverflow thread.
 
 ### 4. Back To App Installation
 If you have successfully downloaded and installed python and pip, go back to the [installation guide](#windows-installation).
@@ -129,6 +133,7 @@ If you have successfully downloaded and installed python and pip, go back to the
 1. `app.py` is the main python file.
 2. `templates/index.html` file is the landing page of the application.
 3. Screenshots are stored in the `screenshots\` folder.
-> ⚠️ **Warning:** Changes to the file structure can result in errors in the code.
+> [!WARNING]
+> File structure changes can result in code errors.
 
 
