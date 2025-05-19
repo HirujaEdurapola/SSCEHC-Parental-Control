@@ -4,6 +4,14 @@
 # SSCEHC-Parental Control Application
 This is a simple parental control application for monitoring children's computer activities. Created by [Hiruja Edurapola](https://hirujaedurapola.com).
 
+> [!NOTE]  
+> Starting from **5th August 2024**, the app can be installed using the provided Windows binaries. If you prefer a manual installation, continue from [this section](#python-installation).  
+>  
+> To get started with the latest binary, visit the [releases](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/releases/) page. The latest release as of **19th May 2025** is **version 5.0.0** (Software version 4.0), available [here](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/releases/tag/5.0).  
+>  
+> If you want to directly download `ParentalControl4.0.exe` without viewing the README or changelogs, click [here](https://github.com/HirujaEdurapola/SSCEHC-Parental-Control/releases/download/5.0/ParentalControl4.0.exe).
+
+
 ## Table of contents
 1. [System Requirements](#system-requirements)
 3. [Windows Installation](#windows-installation)
